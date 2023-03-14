@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.gxl.com/com.httpserver.xsd.gxlFrame.xsd"
+        elementFormDefault="qualified"
+>
+    <element name="gxlFrameConfig">
+        <complexType>
+            <sequence>
+                <element name="resourceLocation">
+                    <complexType>
+                        <sequence>
+                            <element name="staticFilePath" type="string"/>
+                            <element name="servletPackage" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

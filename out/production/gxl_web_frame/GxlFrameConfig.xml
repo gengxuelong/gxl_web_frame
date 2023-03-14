@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gxlFrameConfig xmlns="http://www.gxl.com/com.httpserver.xsd.gxlFrame.xsd">
+    <resourceLocation>
+        <staticFilePath>./src/resource</staticFilePath>
+        <servletPackage>com.httpserver.servlet</servletPackage>
+    </resourceLocation>
+</gxlFrameConfig>
